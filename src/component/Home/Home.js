@@ -1,4 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Reviews from '../Reviews/Reviews';
+
+
 import "./Home.css"
 
 const Home = () => {
@@ -24,13 +28,13 @@ const Home = () => {
                 easy way and choose the better one. Go through the review
                 section and see the review of these devices.
               </p>
-              <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 py-3 px-5 rounded-xl mt-8">
+              <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 py-3 px-5 rounded-xl mt-8 text-white font-semibold">
                 Live Demo
               </button>
             </div>
             <div className="header-img px-1">
               <img
-                className=" w-full"
+                className="w-full rounded-lg"
                 src={require("./Header-img.jpg")}
                 alt=""
               />
@@ -47,31 +51,16 @@ const Home = () => {
 -
 -  */}
         <div className="my-10 py-10">
-          <h2 className="header text-4xl text-center">CUSTOMER REVIEWS</h2>
-          <div className="reviews-container grid grid-cols-3">
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-                officiis.
-              </p>
+          <h2 className="header text-4xl text-center text-gray-600 ">
+            CUSTOMER REVIEWS(3)
+          </h2>
+          <div>
+            <Reviews></Reviews>
+            <div className="text-center">
+              <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 py-2 px-7 rounded-xl mt-8 font-semibold text-white">
+                <Link to="/reviews">See All Review</Link>
+              </button>
             </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-                officiis.
-              </p>
-            </div>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-                officiis.
-              </p>
-            </div>
-          </div>
-          <div className="text-center my-10 py-10">
-            <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 py-2 px-8 rounded-xl mt-8">
-              See All Reviews
-            </button>
           </div>
         </div>
       </div>

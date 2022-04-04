@@ -1,10 +1,17 @@
-import React from 'react';
+import useReview from '../../Hooks/useReview';
+
+
+import Review from '../Review/Review';
 
 const Reviews = () => {
+    const [reviews, setReview] = useReview()
+    console.log(reviews);
     return (
-        <div>
-            <h2>Here is reviews</h2>
-        </div>
+      <div className="grid grid-cols-3 gap-y-8 my-10 justify-items-center">
+        {reviews.map((review) => (
+          <Review key={review.id} review={review}></Review>
+        ))}
+      </div>
     );
 };
 
