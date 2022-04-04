@@ -4,13 +4,23 @@ import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-      <div className='py-5'>
-        <nav className='flex justify-center gap-x-4'>
-          <CustomLink to="/home">HOME</CustomLink>
-          <CustomLink to="/reviews">REVIEWS</CustomLink>
-          <CustomLink to="/dashboard">DASHBOARD</CustomLink>
-          <CustomLink to="/blogs">BLOGS</CustomLink>
-          <CustomLink to="/about">ABOUT</CustomLink>
+      <div className="py-5">
+        <nav className="flex justify-center gap-x-4">
+          <CustomLink className="font-mono" to="/">
+            HOME
+          </CustomLink>
+          <CustomLink className="font-mono" to="/reviews">
+            REVIEWS
+          </CustomLink>
+          <CustomLink className="font-mono" to="/dashboard">
+            DASHBOARD
+          </CustomLink>
+          <CustomLink className="font-mono" to="/blogs">
+            BLOGS
+          </CustomLink>
+          <CustomLink className="font-mono" to="/about">
+            ABOUT
+          </CustomLink>
         </nav>
       </div>
     );
