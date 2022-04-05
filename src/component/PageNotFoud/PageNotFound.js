@@ -8,7 +8,7 @@ const PageNotFound = () => {
       from: { opacity: 0 },
       reset: true,
       reverse: flip,
-      delay: 200,
+      delay: 0,
       onRest: () => set(!flip),
     });
 
@@ -21,9 +21,9 @@ const PageNotFound = () => {
           EI PAGE DUNIAY NAI
         </animated.div>
 
-        <div>
-          <img className="w-100" src={require("./404-image.jpg")} alt="" />
-        </div>
+        
+          <img className="w-3/5" src={require("./404-image.jpg")} alt="" />
+        
       </div>
     );
 };
