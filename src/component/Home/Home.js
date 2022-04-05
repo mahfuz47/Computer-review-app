@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Reviews from '../Reviews/Reviews';
+import useReview from '../../Hooks/useReview';
+import Review from '../Review/Review';
 
 
 import "./Home.css"
 
 const Home = () => {
+
+
+  const [reviews] = useReview();
     return (
       <div>
         <div className="home my-8">
@@ -55,7 +59,13 @@ const Home = () => {
             CUSTOMER REVIEWS(3)
           </h2>
           <div>
-            <Reviews></Reviews>
+            <div className="grid grid-cols-3 gap-y-8 my-10 justify-items-center">
+              {
+
+                reviews.slice(0 ,3).map(review => <Review key={review.id} review={review}></Review>)
+
+              }
+            </div>
             <div className="text-center">
               <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 py-2 px-7 rounded-xl mt-8 font-semibold text-white">
                 <Link to="/reviews">See All Review</Link>
