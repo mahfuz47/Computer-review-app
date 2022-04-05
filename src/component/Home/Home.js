@@ -10,6 +10,9 @@ const Home = () => {
 
 
   const [reviews] = useReview();
+
+
+
     return (
       <div>
         <div className="home my-8">
@@ -33,7 +36,7 @@ const Home = () => {
                 section and see the review of these devices.
               </p>
               <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 py-3 px-5 rounded-xl mt-8 text-white font-semibold">
-                Live Demo
+                <Link to="/dashboard">Live Demo</Link>
               </button>
             </div>
             <div className="header-img px-1">
@@ -60,11 +63,9 @@ const Home = () => {
           </h2>
           <div>
             <div className="grid grid-cols-3 gap-y-8 my-10 justify-items-center">
-              {
-
-                reviews.slice(0 ,3).map(review => <Review key={review.id} review={review}></Review>)
-
-              }
+              {reviews.slice(0, 3).map((review) => (
+                <Review key={review.id} review={review}></Review>
+              ))}
             </div>
             <div className="text-center">
               <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 py-2 px-7 rounded-xl mt-8 font-semibold text-white">

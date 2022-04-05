@@ -3,42 +3,42 @@
     "id": 1,
     "img": "https://cdn.britannica.com/49/182849-050-4C7FE34F/scene-Iron-Man.jpg",
     "name": "Tony Stark",
-    "opinion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,officiis.",
-    "Ratings": 4.5
+    "opinion": "I use this computer for creating Jervis's programms and its cpu cooler fan provide's too much wind.",
+    "Ratings": "4/5"
   },
   {
     "id": 2,
     "img": "https://mediaproxy.salon.com/width/1200/https://media.salon.com/2019/07/thor-ragnarok2.jpg",
     "name": "Thor",
-    "opinion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,officiis.",
-    "Ratings": 4.5
+    "opinion": "Last year tony told me to buy it for asguard and honesly I'm saying, Its consume too much electricty!",
+    "Ratings": "4/5"
   },
   {
     "id": 3,
     "img": "https://www.fxguide.com/wp-content/uploads/2019/05/thanos3.jpg",
     "name": "Thanos",
-    "opinion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,officiis.",
-    "Ratings": 4.5
+    "opinion": "I used this computer to attack on New York in 2012. Tony's Jervis couldn't stop me!!!",
+    "Ratings": "4/5"
   },
   {
     "id": 4,
     "img": "https://i.ytimg.com/vi/BNcxTNrtRdk/maxresdefault.jpg",
     "name": "Peter Parker",
-    "opinion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,officiis.",
-    "Ratings": 4.5
+    "opinion": "This computer helped me to breack the training period of my suits. Tony made that for me.",
+    "Ratings": "4/5"
   },
   {
     "id": 5,
     "img": "https://i.insider.com/60c0bb836b60c70019c29cf0?width=700",
     "name": "Loki",
-    "opinion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,officiis.",
-    "Ratings": 4.5
+    "opinion": "Actually this computer dont consume that much power. Thor didn't know that I was stealing the electricity",
+    "Ratings": "4/5"
   },
   {
     "id": 6,
-    "img": "https://media.wired.com/photos/5927013bf3e2356fd800b27c/master/w_2560%2Cc_limit/CA.jpg",
+    "img": "https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/JmzRuxPCozjvVFPlaFea8yfSNeGdZM.jpg",
     "name": "Steve Rogers",
-    "opinion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,officiis.",
-    "Ratings": 4.5
+    "opinion": "I make a portal that allow me to talk with Peggy by chatting in messenger in that era. It's a useful domestic product.",
+    "Ratings": "4/5"
   }
 ]
