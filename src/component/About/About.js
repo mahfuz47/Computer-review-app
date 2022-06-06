@@ -1,24 +1,30 @@
-import React, { useState } from "react";
-import { useSpring, animated } from "react-spring";
+import React from "react";
 
 const About = () => {
-  const [flip, set] = useState(false);
-  const props = useSpring({
-    to: { opacity: 1 },
-    from: { opacity: 0 },
-    reset: true,
-    reverse: flip,
-    delay: 0,
-    onRest: () => set(!flip),
-  });
   return (
-    <div>
-      <animated.div
-        className="text-5xl font-mono font-extrabold text-center my-16 py-10 text-indigo-500"
-        style={props}
-      >
-        ABOUT IS ON README FILE
-      </animated.div>
+    <div className="font-mono text-center">
+      <ul>
+        <li>
+          ◉ This sites contains 5 navigation option on header section and every
+          links is based on react routing thesis.
+        </li>
+        <li>
+          ◉ React hook, React spring etc. is used to animate the ui and avoid
+          DRY law.
+        </li>
+        <li>
+          ◉ The famous css framework Tailwind is used for fascinating the UI in
+          best way.
+        </li>
+        <li>
+          ◉ There are 4 types of data chart in this sites has described the
+          level of investment, sell and revenue data given by programming hero.
+        </li>
+        <li>
+          ◉ The most interesting part of this site is client side error page. If
+          you want to know then go through the link and check it out.
+        </li>
+      </ul>
     </div>
   );
 };
